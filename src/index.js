@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Pantalla5 from './components/Pantalla5';
+import Pantalla10 from './components/Pantalla10';
+import Pantalla11 from './components/Pantalla11';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={ <Pantalla11 /> } />
+        <Route path='/Pantalla10' element={ <Pantalla10 /> } />
+        <Route path='/Pantalla5' element={ <Pantalla5 /> } />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
