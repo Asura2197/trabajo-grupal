@@ -12,9 +12,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={ <Pantalla11 /> } />
-        <Route path='/Pantalla10' element={ <Pantalla10 /> } />
-        <Route path='/Pantalla5' element={ <Pantalla5 /> } />
+        <Route path='https://asura2197.github.io/trabajo-grupal/' element={ <Pantalla11 /> } />
+        <Route path='https://asura2197.github.io/trabajo-grupal/Pantalla10' element={ <Pantalla10 /> } />
+        <Route path='https://asura2197.github.io/trabajo-grupal/Pantalla5' element={ <Pantalla5 /> } />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
