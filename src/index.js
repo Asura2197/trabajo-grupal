@@ -10,13 +10,11 @@ import Pantalla11 from './components/Pantalla11';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+
       <Routes>
-        <Route path='https://asura2197.github.io/trabajo-grupal/' element={ <Pantalla11 /> } />
-        <Route path='https://asura2197.github.io/trabajo-grupal/Pantalla10' element={ <Pantalla10 /> } />
-        <Route path='https://asura2197.github.io/trabajo-grupal/Pantalla5' element={ <Pantalla5 /> } />
+        <Route path='https://Asura2197.github.io/trabajo-grupal' element={ <Pantalla11 /> } />
       </Routes>
-    </BrowserRouter>
+
   </React.StrictMode>
 );
 
