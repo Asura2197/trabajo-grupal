@@ -1,8 +1,8 @@
 {
-  "homepage": "https://Asura2197.github.io/trabajo-grupal",
+  "homepage": "https://asura2197.github.io/trabajo-grupal",
   "name": "pantallasvillalobosdiego",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
