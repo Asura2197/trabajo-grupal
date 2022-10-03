@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/trabajo-grupal/static/css/main.e6c13ad2.css",
-    "main.js": "/trabajo-grupal/static/js/main.ff2bcda7.js",
+    "main.js": "/trabajo-grupal/static/js/main.dd7243c1.js",
     "static/js/787.a9336f7d.chunk.js": "/trabajo-grupal/static/js/787.a9336f7d.chunk.js",
     "index.html": "/trabajo-grupal/index.html",
     "main.e6c13ad2.css.map": "/trabajo-grupal/static/css/main.e6c13ad2.css.map",
-    "main.ff2bcda7.js.map": "/trabajo-grupal/static/js/main.ff2bcda7.js.map",
+    "main.dd7243c1.js.map": "/trabajo-grupal/static/js/main.dd7243c1.js.map",
     "787.a9336f7d.chunk.js.map": "/trabajo-grupal/static/js/787.a9336f7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.ff2bcda7.js"
+    "static/js/main.dd7243c1.js"
   ]
 }
