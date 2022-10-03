@@ -11,9 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-      <Routes>
-        <Route path='https://Asura2197.github.io/trabajo-grupal' element={ <Pantalla11 /> } />
-      </Routes>
+     <Pantalla11 />
 
   </React.StrictMode>
 );
