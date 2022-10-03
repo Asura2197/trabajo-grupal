@@ -10,9 +10,13 @@ import Pantalla11 from './components/Pantalla11';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-
-     <Pantalla11 />
-
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Pantalla5/> } />
+        <Route path='/main' element={ <Pantalla10 /> } />
+        <Route path='/main2' element={ <Pantalla11 /> } />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
